@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '../widgets/app_button.dart';
+import '../widgets/app_logo.dart';
 import '../widgets/app_text_field.dart';
 import 'sign_up_page.dart';
 
@@ -17,7 +18,7 @@ class LoginPage extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               const SizedBox(height: 40),
-              Image.asset('assets/images/logo.png', height: 80),
+              const AppLogo(size: 80),
               const SizedBox(height: 30),
               const Text(
                 'Welcome to Vibe',
